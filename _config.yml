@@ -112,7 +112,7 @@ events:
   - image: "/img/timeline/spidertocat.png"
     date: "August 2014"
     description: "Started Enjoying"
-  - image: "/img/timeline/baracktocat.png"
+  - image: "/img/timeline/baracktocat.jpg"
     date: "June 2012"
     description: "Started working"
   - image: "/img/timeline/spidertocat.png"
@@ -124,7 +124,7 @@ events:
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/varit.jpg"
+timeline-img: "/img/timeline/varit.JPG"
 
 ###########
 # Contact #
