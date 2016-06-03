@@ -110,27 +110,21 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/spidertocat.png"
-    date: "May 2015 - May 2016"
-    description: "working with TalkTalk PLC at London, United Kingdom"
+    date: "August 2014"
+    description: "Started Enjoying"
+  - image: "/img/timeline/baracktocat.png"
+    date: "June 2012"
+    description: "Started working"
   - image: "/img/timeline/spidertocat.png"
-    date: "Febuary 2015 - April 2015"
-    description: "working with TalkTalk PLC at Chennai, Tamil Nadu"
-  - image: "/img/timeline/spidertocat.png"
-    date: "August 2014 - January 2015"
-    description: "working with Vanguard PLC at Pune, Maharastra"
-  - image: "/img/timeline/spidertocat.png"
-    date: "December 2012 - July 2014"
-    description: "Join TCS and start working with HDFC Insurance Pvt. Ltd at Pune, Maharastra"
-  - image: "/img/timeline/spidertocat.png"
-    date: "May 2012 - December 2012"
-    description: "works as Freelancer at Surat, Gujarat"
+    date: "June 2008"
+    description: "Grew up & decided to be an Engineering"
   - image: "/img/timeline/baracktocat.jpg"
-    date: "June 2008  - May 2012"
-    description: "Started Learning Bachelor of Engineering in Information Technology"
+    date: "July 1990"
+    description: "Born"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/varit.jpg"
 
 ###########
 # Contact #
