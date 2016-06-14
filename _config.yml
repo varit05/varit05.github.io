@@ -55,7 +55,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Hello! Varit Patel here! I am a Front-end Developer"
+  - text: "HELLO! My name is Varit Patel. I am a Front-end Developer"
   - text: "Currently working and associated with TCS."
 
 me-img: "/img/varit.jpg"

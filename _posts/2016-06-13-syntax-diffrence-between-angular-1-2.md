@@ -13,7 +13,7 @@ In Angular1, we have a semantic syntax (ng-) for all directives, events, templat
 
 Here is your guide to the syntax of Angular1.x & Angular2
 
-| Angular1 | #Angular2 |
+| Angular1 | Angular2 |
 | --- |---: |
 | ng-if | *ngIf |
 | ng-repeat | *ngFor |
