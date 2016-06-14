@@ -34,8 +34,6 @@
 
           {{ page.content | markdownify }}
 
-          {% include share.html %}
-
           {% if jekyll.environment == "production" %}
             {% include comments.html %}
           {% endif %}

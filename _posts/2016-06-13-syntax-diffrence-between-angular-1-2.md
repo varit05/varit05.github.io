@@ -11,12 +11,13 @@ so when we look at the Angular2, the implementaion of the framework itself has c
 
 In Angular1, we have a semantic syntax (ng-) for all directives, events, template syntax, etc. But here in Angular2, we will be having different syntax for directives, events, template syntax to identify them and understand the use of it appropriately.
 
-<pre><code data-trim class="bash">
-cd <your { Personal } repo>
-| Angular1 | Angular2 |
+Here is your guide to the syntax of Angular1.x & Angular2
+
+| Angular1 | #Angular2 |
 | --- |---: |
-| Built-in directives |
 | ng-if | *ngIf |
-| ng-for | *ngFor |
+| ng-repeat | *ngFor |
+| ng-switch | [ngSwitch] |
+| ng-switch-when | [ngSwitchWhen] |
+| ng-class | [ngClass] |
 {:.mbtablestyle}
-</code></pre>
