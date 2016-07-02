@@ -22,7 +22,7 @@ google-tracking-id: "UA-78069331-1"
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: True
+force-https: false
 
 #############
 # HTML Head #
@@ -99,6 +99,7 @@ tumblr-share: True
 pinterest-share: True
 pocket-share: True
 vkontakte-share: True
+stack-overflow-share: True
 
 disqus-shortname: "varit05"
 
@@ -156,6 +157,8 @@ social:
     url: "https://github.com/varit05"
   - title: "linkedin"
     url: "https://in.linkedin.com/in/varit05"
+  - title: "stack-overflow"
+    url: "http://stackoverflow.com/users/3367340/varit05"
 
 ############
 # 404 page #
