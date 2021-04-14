@@ -1,4 +1,3 @@
-
 # Site settings
 
 # NB! Set your site's url, otherwise stuff will break :)
@@ -12,7 +11,7 @@ url: "http://varit05.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: 
+baseurl:
 
 # Google tracking id to track your visitors
 
@@ -32,7 +31,7 @@ lang: "en"
 author: "Varit Patel"
 title: "{ Varit J Patel }"
 description: "Blog and website of Varit J Patel, blogging mainly for tech. Opinions expressed are mine."
-keywords: "varit patel, varit, personal, jekyll, theme"
+keywords: "varit patel, varit, personal, mentor, dev, developer, code enthusiastic"
 favicon: "/img/favicon.ico"
 
 ################
@@ -58,7 +57,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Varit J Patel"
   # - text: "Currently working and associated with TCS."
 
-me-img: "/img/varit.jpg"
+me-img: "/img/varit.jpeg"
 
 ##############################
 # Color the browser elements #
@@ -141,7 +140,7 @@ email: "varitpatel@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: 
+author_blurb:
 author_blurb_image:
 
 ##################
@@ -173,10 +172,10 @@ social:
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
-  Blog: 'latest-post'
-  Timeline: 'timeline'
-  Contact: 'contact'
+  About: "about"
+  Blog: "latest-post"
+  Timeline: "timeline"
+  Contact: "contact"
 
 # Exclusion list from the generated _site
 
