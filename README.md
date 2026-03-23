@@ -1,19 +1,44 @@
-# Soruce code varit.me 
+# Next.js Portfolio Starter
 
-Please Feel Free to Fork or Clone and raise a PR for the content.
+Simple production-ready portfolio starter with:
 
-### To Run this Project
+- Next.js App Router
+- TypeScript
+- Tailwind CSS
+- MDX blog from local content
+- Dynamic project pages
+- SEO defaults (`metadata`, `robots`, `sitemap`)
 
-Please install `Jekyll`.
+## 1) Install dependencies
 
+```bash
+pnpm install
 ```
-gem install jekyll
+
+## 2) Run locally
+
+```bash
+pnpm run dev
 ```
 
-### Running the server 
+## 3) Customize
 
-```
-jekyll serve
-```
+- Edit site-level metadata in `lib/site.ts`
+- Add blog posts in `content/blog/*.mdx`
+- Update project entries in `data/projects.ts`
 
-This will start serving the project from `127.0.0.1:4000`.
+## Structure
+
+```text
+app/
+  blog/
+  projects/
+  layout.tsx
+  page.tsx
+  robots.ts
+  sitemap.ts
+components/
+content/blog/
+data/projects.ts
+lib/
+```
