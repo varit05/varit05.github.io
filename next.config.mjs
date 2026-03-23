@@ -1,10 +1,17 @@
 /** @type {import('next').NextConfig} */
+const repoName = process.env.GITHUB_REPOSITORY?.replace(/^[^/]+\//, "") ?? "";
+const isUserPagesRepo = repoName.toLowerCase().endsWith(".github.io");
+const basePath = process.env.GITHUB_ACTIONS && repoName && !isUserPagesRepo ? `/${repoName}` : "";
+
 const nextConfig = {
-  pageExtensions: ["ts", "tsx", "md", "mdx"],
   output: "export",
-  // If deploying to a subpath, set basePath and assetPrefix here
-  // basePath: "/<repo-name>",
-  // assetPrefix: "/<repo-name>/",
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  },
+  pageExtensions: ["ts", "tsx", "md", "mdx"],
+  basePath,
+  assetPrefix: basePath ? `${basePath}/` : undefined
 };
 
 export default nextConfig;
